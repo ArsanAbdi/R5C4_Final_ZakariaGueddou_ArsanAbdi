@@ -1,0 +1,67 @@
+{
+  "hash": "2ae008c1",
+  "configHash": "3c830b13",
+  "lockfileHash": "f3fabc40",
+  "browserHash": "ee558008",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "8ed9232e",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "525b4f67",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "f0708d4b",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "a17ca791",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "025978b0",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "a6c2fc8d",
+      "needsInterop": false
+    },
+    "@swimlane/ngx-charts": {
+      "src": "../../../../../node_modules/@swimlane/ngx-charts/fesm2022/swimlane-ngx-charts.mjs",
+      "file": "@swimlane_ngx-charts.js",
+      "fileHash": "33d464db",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-BKQCLLZC": {
+      "file": "chunk-BKQCLLZC.js"
+    },
+    "chunk-IBLKAIK7": {
+      "file": "chunk-IBLKAIK7.js"
+    },
+    "chunk-R3FRDFD6": {
+      "file": "chunk-R3FRDFD6.js"
+    },
+    "chunk-2UG7WVGR": {
+      "file": "chunk-2UG7WVGR.js"
+    },
+    "chunk-K53DMGGC": {
+      "file": "chunk-K53DMGGC.js"
+    }
+  }
+}

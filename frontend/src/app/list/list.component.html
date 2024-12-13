@@ -1,0 +1,33 @@
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Algorithme</th>
+        <th>Temps d'exécution (ns)</th>
+        <th>Taille de la grille</th>
+        <th>Déplacement</th>
+        <th>Départ</th>
+        <th>Arrivée</th>
+        <th>Longueur du chemin</th>
+        <th>Noeuds visités</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let search of searches">
+        <td>{{ search.algorithm }}</td>
+        <td>{{ search.time_ns }}</td>
+        <td>{{ search.grid_width }} x {{ search.grid_height }}</td>
+        <td>{{ search.move_type }}</td>
+        <td>{{ search.start[0] }}, {{ search.start[1] }}</td>
+        <td>{{ search.end[0] }}, {{ search.end[1] }}</td>
+        <td>{{ search.path_length }}</td>
+        <td>{{ search.visited_nodes }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="pagination">
+  <button (click)="prevPage()" [disabled]="page === 1">Précédent</button>
+  <button (click)="nextPage()" [disabled]="page * limit >= total">Suivant</button>
+</div>
